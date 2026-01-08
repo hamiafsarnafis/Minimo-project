@@ -1,0 +1,259 @@
+/* common css start*/
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common css end*/
+
+/* header start */
+header{
+    padding: 50px 0;
+    /* border: 1px solid red; */
+}
+.container{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 1px;
+    /* border: 1px solid red; */
+    width: 10%;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    /* border: 1px solid red; */
+    width: 65%;
+    float: right;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+.menu ul li{
+    margin: 0;
+    float: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+}
+.menu ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    /* border-radius: 12px; */
+    transition: linear 0.33s;
+    font-weight: 500;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+
+/* banner start */
+.banner{}
+.banner_img{}
+.banner_img img{
+    width: 100%;
+}
+/* banner end */
+
+/* article start */
+.article{
+    padding: 100px 0;
+}
+.container2{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.a_content{}
+.a_content a{}
+.light{
+    margin: 0 2.5%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#626262
+}
+.title{
+    margin: 20px 2.5% 30px 2.5%;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:#626262
+}
+.text{
+    margin: 2.5%;
+    line-height: 24px;
+    font-weight: 500;
+}
+.a_link{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color:#626262
+}
+/* article end */
+
+/* blog start */
+.blog{
+    /* padding: 0 0 100px; */
+}
+.blog_item{
+    margin-top: 100px;
+    box-sizing: border-box;
+    float: left;
+    width: 47%;
+    /* border: 1px solid black; */
+}
+.blog_item:hover{
+    background-color: #f0f0f0;
+    transition: 0.5s;
+    border-radius: 12px;
+}
+.blog_item:nth-child(even){
+    margin-left: 91px;
+}
+.blog_item:first-child{
+    margin-top: 0;
+}
+.blog_item:nth-child(2){
+    margin-top: 0;
+}
+.blog_img{
+    /* background-color: #f0f0f0;
+    transition: 0.5s;
+    border-radius: 12px; */
+}
+.width100{
+    width: 100%;
+    margin-bottom: 25px;
+}
+/* blog end */
+
+/* newsletter start */
+.newsletter{
+    min-height: 290px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f0f0f0;
+}
+.signup{
+    text-align: center;
+    /* padding: 100px 0; */
+}
+.s_h1{
+    margin: 0;
+    padding: 66px 0 75px 0;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #626262;
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    top: 10px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{}
+/* newsletter end */
+
+/* blog2 start */
+.load{
+    text-align: center;
+    padding: 170px 0;
+}
+.l_btn{
+    padding: 20px 35px;
+    border: 1px solid #626262;
+    transition: 0.5s;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    background-color: white;
+}
+.l_btn:hover{
+    background-color: #f0f0f0;
+    color: black;
+}
+/* blog2 end */
+
+/* footer start */
+footer{
+    background-color: #f0f0f0;
+    padding: 35px 0;
+}
+.f_left{
+    float: left;
+    /* border: 1px solid red; */
+}
+.f_left ul{
+    margin: 0;
+    padding: 0 40px 0 0;
+    float: left;
+    margin-top: 15px;
+}
+.f_left ul li{
+    list-style: none;
+}
+.f_left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.f_right{
+    float: right;
+    /* border: 1px solid red; */
+}
+.f_right ul{
+}
+.f_right ul li{
+    list-style: none;
+    float: left;
+    margin-bottom: 15px;
+}
+.f_right ul li a{
+    padding: 5px 0 5px 20px;
+}
+/* footer end */
